@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin: 1rem 10rem 1rem 10rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.containerPrincipal {
+  height: 10rem;
+  padding: 2rem;
+  margin: auto;
+  text-decoration: none;
+}
+
+/*sessao dos btn e input */
+.addTarefas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.addTarefas input {
+  height: 25px;
+}
+
+.Adicionar button {
+  width: 90px;
+  height: 30px;
+  background-color: #001aff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #397ef5ba;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+  cursor: pointer;
+}
+li span {
+  padding: 10px;
+  font-weight: bold;
+}
+li button {
+  gap: 1rem;
+  padding: 5px;
+}
